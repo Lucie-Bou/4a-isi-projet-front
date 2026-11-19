@@ -26,11 +26,18 @@ body {
     }
 }
 
+.auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
 h3{
     color:var(--primary);
 }
 
-a {
+a,button {
     background-color:var(--primary);
     border: 0;
     color: #ffffff;
